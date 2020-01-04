@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{3301A601-57F8-4011-927A-843B500283F3}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+		..\..\..\Downloads\themeforest-MoTaHIrh-treely-one-page-parallax.zip = ..\..\..\Downloads\themeforest-MoTaHIrh-treely-one-page-parallax.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{232E7DEF-1E63-4C68-8B3B-E6884E118A9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7905939F-628A-47BF-ACB6-4A3928830097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{83ECA579-122A-4D26-A37F-6C106B878DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{86A6A76D-6B8D-4FB0-880A-A7C44F6E94ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3F9621E6-40F0-468B-949C-5045005D252F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WandaPlusTv.Domain", "WandaPlusTv.Domain\WandaPlusTv.Domain.csproj", "{AD19C742-110C-4FEC-8827-E22AD76F9554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WandaPlusTv.Application", "WandaPlusTv.Application\WandaPlusTv.Application.csproj", "{584DAC78-1CE8-4F5B-A254-39A895F9146A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WandaPlusTv.Flix", "WandaPlusTv.Flix\WandaPlusTv.Flix.csproj", "{2A1B1C2B-EB85-4A6A-83C2-0224C35BC778}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD19C742-110C-4FEC-8827-E22AD76F9554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD19C742-110C-4FEC-8827-E22AD76F9554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD19C742-110C-4FEC-8827-E22AD76F9554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD19C742-110C-4FEC-8827-E22AD76F9554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584DAC78-1CE8-4F5B-A254-39A895F9146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584DAC78-1CE8-4F5B-A254-39A895F9146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584DAC78-1CE8-4F5B-A254-39A895F9146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584DAC78-1CE8-4F5B-A254-39A895F9146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1B1C2B-EB85-4A6A-83C2-0224C35BC778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1B1C2B-EB85-4A6A-83C2-0224C35BC778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1B1C2B-EB85-4A6A-83C2-0224C35BC778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1B1C2B-EB85-4A6A-83C2-0224C35BC778}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7905939F-628A-47BF-ACB6-4A3928830097} = {232E7DEF-1E63-4C68-8B3B-E6884E118A9D}
+		{83ECA579-122A-4D26-A37F-6C106B878DC7} = {232E7DEF-1E63-4C68-8B3B-E6884E118A9D}
+		{86A6A76D-6B8D-4FB0-880A-A7C44F6E94ED} = {232E7DEF-1E63-4C68-8B3B-E6884E118A9D}
+		{3F9621E6-40F0-468B-949C-5045005D252F} = {232E7DEF-1E63-4C68-8B3B-E6884E118A9D}
+		{AD19C742-110C-4FEC-8827-E22AD76F9554} = {7905939F-628A-47BF-ACB6-4A3928830097}
+		{584DAC78-1CE8-4F5B-A254-39A895F9146A} = {83ECA579-122A-4D26-A37F-6C106B878DC7}
+		{2A1B1C2B-EB85-4A6A-83C2-0224C35BC778} = {3F9621E6-40F0-468B-949C-5045005D252F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B58ED072-7174-4FC8-B4A5-6277585EF8D9}
+	EndGlobalSection
+EndGlobal
