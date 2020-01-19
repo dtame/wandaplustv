@@ -28,12 +28,12 @@ namespace SimpleMembership
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 await connection.OpenAsync(cancellationToken);
-                user.Id = await connection.QuerySingleAsync<int>($@"INSERT INTO [ApplicationUser] ([UserName], [NormalizedUserName], [Email],
+                user.Id = await connection.QuerySingleAsync<string>($@"INSERT INTO [ApplicationUser] ([UserName], [NormalizedUserName], [Email],
                 [NormalizedEmail], [EmailConfirmed], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [RoleId])
                 VALUES (@{nameof(ApplicationUser.UserName)}, @{nameof(ApplicationUser.NormalizedUserName)}, @{nameof(ApplicationUser.Email)},
                 @{nameof(ApplicationUser.NormalizedEmail)}, @{nameof(ApplicationUser.EmailConfirmed)}, @{nameof(ApplicationUser.PasswordHash)},
                 @{nameof(ApplicationUser.PhoneNumber)}, @{nameof(ApplicationUser.PhoneNumberConfirmed)}, @{nameof(ApplicationUser.TwoFactorEnabled)}, 
-                 @{nameof(ApplicationUser.RoleId)});
+                @{nameof(ApplicationUser.RoleId)});
                 SELECT CAST(SCOPE_IDENTITY() as int)", user);
             }
 

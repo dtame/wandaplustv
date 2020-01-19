@@ -27,7 +27,7 @@ namespace SimpleMembership
             using (var connection = new SqlConnection(_connectionString))
             {
                 await connection.OpenAsync(cancellationToken);
-                role.Id = await connection.QuerySingleAsync<int>($@"INSERT INTO [ApplicationRole] ([Name], [NormalizedName])
+                role.Id = await connection.QuerySingleAsync<string>($@"INSERT INTO [ApplicationRole] ([Name], [NormalizedName])
                 VALUES (@{nameof(ApplicationRole.Name)}, @{nameof(ApplicationRole.NormalizedName)});
                 SELECT CAST(SCOPE_IDENTITY() as int)", role);
             }
