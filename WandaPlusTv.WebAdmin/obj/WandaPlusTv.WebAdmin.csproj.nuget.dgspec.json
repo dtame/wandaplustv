@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj": {}
+    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj": {
+    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj",
+        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj",
         "projectName": "SimpleMembership",
-        "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj",
+        "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj",
         "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\obj\\",
+        "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj": {
+    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj",
+        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj",
         "projectName": "WandaPlusTv.WebAdmin",
-        "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj",
+        "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.WebAdmin\\WandaPlusTv.WebAdmin.csproj",
         "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.WebAdmin\\obj\\",
+        "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.WebAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,8 +98,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj": {
-                "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj"
+              "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj": {
+                "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj"
               }
             }
           }
