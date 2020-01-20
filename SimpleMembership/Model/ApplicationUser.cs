@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SimpleMembership.Model
 {
-    public class ApplicationUser : IdentityUser<string>
+    public class ApplicationUser : IdentityUser<Guid>
     {        
         public string RoleId { get; set; }
     }

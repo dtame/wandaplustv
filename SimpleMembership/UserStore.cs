@@ -28,7 +28,7 @@ namespace SimpleMembership
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 await connection.OpenAsync(cancellationToken);
-                user.Id = await connection.QuerySingleAsync<string>($@"INSERT INTO [ApplicationUser] ([UserName], [NormalizedUserName], [Email],
+                user.Id = await connection.QuerySingleAsync<Guid>($@"INSERT INTO [ApplicationUser] ([UserName], [NormalizedUserName], [Email],
                 [NormalizedEmail], [EmailConfirmed], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [RoleId])
                 VALUES (@{nameof(ApplicationUser.UserName)}, @{nameof(ApplicationUser.NormalizedUserName)}, @{nameof(ApplicationUser.Email)},
                 @{nameof(ApplicationUser.NormalizedEmail)}, @{nameof(ApplicationUser.EmailConfirmed)}, @{nameof(ApplicationUser.PasswordHash)},
