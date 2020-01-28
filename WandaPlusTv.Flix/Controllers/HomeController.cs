@@ -15,6 +15,11 @@ namespace WandaPlusTv.Flix.Controllers
             return View();
         }
 
+        public IActionResult Discover()
+        {
+            return View();
+        }
+
         public IActionResult Video()
         {
             return View();

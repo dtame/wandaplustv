@@ -14,6 +14,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SimpleMembership.Model;
 using SimpleMembership;
+using WandaPlusTv.Data.Contracts;
+using WandaPlusTv.Data;
 
 namespace WandaPlusTv.WebAdmin
 {
@@ -36,9 +38,7 @@ namespace WandaPlusTv.WebAdmin
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //services.AddDbContext<ApplicationDbContext>(options =>
-            //    options.UseSqlServer(
-            //        Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IUserStore<ApplicationUser>, UserStore>();
             services.AddTransient<IRoleStore<ApplicationRole>, RoleStore>();
 

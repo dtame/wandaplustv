@@ -72,6 +72,122 @@
         }
       }
     },
+    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj",
+        "projectName": "WandaPlusTv.Data",
+        "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj",
+        "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dtame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {
+                "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj",
+        "projectName": "WandaPlusTv.Domain",
+        "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj",
+        "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dtame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Flix\\WandaPlusTv.Flix.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -100,6 +216,9 @@
             "projectReferences": {
               "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj": {
                 "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj"
+              },
+              "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj": {
+                "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj"
               }
             }
           }
