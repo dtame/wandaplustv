@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleMembership\SimpleMembership.csproj" />
+    <ProjectReference Include="..\WandaPlusTv.Data\WandaPlusTv.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@model WandaPlusTv.Domain.Genre 
+
+<form method="post" action="Create">
+    <h4>Create a new gender</h4>
+    <hr />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="@Model.Name"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-default">Save</button>
+    </div>
+</form>

@@ -6,7 +6,11 @@ C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\WandaPlusTv.Flix.Views.dll
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\WandaPlusTv.Flix.Views.pdb
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\SimpleMembership.dll
+C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\WandaPlusTv.Data.dll
+C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\WandaPlusTv.Domain.dll
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\SimpleMembership.pdb
+C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\WandaPlusTv.Data.pdb
+C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\bin\Debug\netcoreapp2.1\WandaPlusTv.Domain.pdb
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\obj\Debug\netcoreapp2.1\WandaPlusTv.Flix.csprojAssemblyReference.cache
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\obj\Debug\netcoreapp2.1\WandaPlusTv.Flix.csproj.CoreCompileInputs.cache
 C:\Users\dtame\source\repos\WandaPlusTv\WandaPlusTv.Flix\obj\Debug\netcoreapp2.1\WandaPlusTv.Flix.RazorAssemblyInfo.cache
