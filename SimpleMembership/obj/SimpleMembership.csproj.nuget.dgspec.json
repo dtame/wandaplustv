@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj": {}
+    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj": {
+    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj",
+        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj",
         "projectName": "SimpleMembership",
-        "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj",
+        "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj",
         "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\obj\\",
+        "outputPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

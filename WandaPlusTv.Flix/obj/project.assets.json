@@ -12013,11 +12013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Flix\\WandaPlusTv.Flix.csproj",
+      "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Flix\\WandaPlusTv.Flix.csproj",
       "projectName": "WandaPlusTv.Flix",
-      "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Flix\\WandaPlusTv.Flix.csproj",
+      "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Flix\\WandaPlusTv.Flix.csproj",
       "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Flix\\obj\\",
+      "outputPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Flix\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12036,11 +12036,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj": {
-              "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\SimpleMembership\\SimpleMembership.csproj"
+            "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj": {
+              "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\SimpleMembership\\SimpleMembership.csproj"
             },
-            "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj": {
-              "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj"
+            "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj": {
+              "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj"
             }
           }
         }

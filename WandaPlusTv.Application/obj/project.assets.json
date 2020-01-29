@@ -551,11 +551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Application\\WandaPlusTv.Application.csproj",
+      "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Application\\WandaPlusTv.Application.csproj",
       "projectName": "WandaPlusTv.Application",
-      "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Application\\WandaPlusTv.Application.csproj",
+      "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Application\\WandaPlusTv.Application.csproj",
       "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Application\\obj\\",
+      "outputPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -574,11 +574,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj": {
-              "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj"
+            "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj": {
+              "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Data\\WandaPlusTv.Data.csproj"
             },
-            "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {
-              "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj"
+            "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {
+              "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj"
             }
           }
         }

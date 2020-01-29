@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {}
+    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {
+    "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj",
         "projectName": "WandaPlusTv.Domain",
-        "projectPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj",
+        "projectPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\WandaPlusTv.Domain.csproj",
         "packagesPath": "C:\\Users\\dtame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dtame\\source\\repos\\WandaPlusTv\\WandaPlusTv.Domain\\obj\\",
+        "outputPath": "C:\\Users\\dtame\\source\\repos\\wandaplustv\\WandaPlusTv.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
