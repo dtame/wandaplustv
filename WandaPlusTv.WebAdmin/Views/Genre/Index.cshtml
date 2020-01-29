@@ -1,0 +1,32 @@
+﻿@model List<WandaPlusTv.Domain.Genre>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>            
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var gender in Model)
+            {
+                <tr>
+                    <th scope="row">@gender.Id</th>
+                    <td>@gender.Name</td>
+                    <td><a asp-controller="Genre" asp-action="Edit" asp-route-id="@gender.Id">Edit</a></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td>No records !</td></tr>
+        }
+    </tbody>
+</table>

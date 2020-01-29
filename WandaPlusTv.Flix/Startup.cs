@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -13,6 +15,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SimpleMembership;
 using SimpleMembership.Model;
+using WandaPlusTv.Data;
+using WandaPlusTv.Data.Contracts;
 using WandaPlusTv.Flix.Models;
 
 namespace WandaPlusTv.Flix
@@ -29,9 +33,10 @@ namespace WandaPlusTv.Flix
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<WandaPlusTvFlixContext>(options => 
-            //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            string dbConnectionString = this.Configuration.GetConnectionString("DefaultConnection");
+            services.AddTransient<IDbConnection>((sp) => new SqlConnection(dbConnectionString));
+            services.AddTransient<IGenreRepository, GenreRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IUserStore<ApplicationUser>, UserStore>();
             services.AddTransient<IRoleStore<ApplicationRole>, RoleStore>();
 

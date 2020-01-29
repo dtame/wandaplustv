@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WandaPlusTv.Data\WandaPlusTv.Data.csproj" />
     <ProjectReference Include="..\WandaPlusTv.Domain\WandaPlusTv.Domain.csproj" />
   </ItemGroup>
 

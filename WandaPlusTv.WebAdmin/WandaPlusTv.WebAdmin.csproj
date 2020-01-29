@@ -17,6 +17,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleMembership\SimpleMembership.csproj" />
+    <ProjectReference Include="..\WandaPlusTv.Application\WandaPlusTv.Application.csproj" />
+    <ProjectReference Include="..\WandaPlusTv.Data\WandaPlusTv.Data.csproj" />
+    <ProjectReference Include="..\WandaPlusTv.Domain\WandaPlusTv.Domain.csproj" />
   </ItemGroup>
 
 </Project>

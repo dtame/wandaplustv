@@ -8,7 +8,7 @@ namespace WandaPlusTv.Domain
     {
         public string Name { get; set; }
         public string Episode { get; set; }
-        public string Saison { get; set; }
+        public string Saison { get; set; } = "S00";
         public string Detail { get; set; }
         public int GenreId { get; set; }
         public int CategoryId { get; set; }
