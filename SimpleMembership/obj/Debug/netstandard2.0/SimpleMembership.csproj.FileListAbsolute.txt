@@ -1,9 +1,0 @@
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\bin\Debug\netstandard2.0\SimpleMembership.deps.json
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\bin\Debug\netstandard2.0\SimpleMembership.dll
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\bin\Debug\netstandard2.0\SimpleMembership.pdb
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\obj\Debug\netstandard2.0\SimpleMembership.csprojAssemblyReference.cache
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\obj\Debug\netstandard2.0\SimpleMembership.csproj.CoreCompileInputs.cache
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\obj\Debug\netstandard2.0\SimpleMembership.AssemblyInfoInputs.cache
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\obj\Debug\netstandard2.0\SimpleMembership.AssemblyInfo.cs
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\obj\Debug\netstandard2.0\SimpleMembership.dll
-C:\Users\dtame\source\repos\WandaPlusTv\SimpleMembership\obj\Debug\netstandard2.0\SimpleMembership.pdb
